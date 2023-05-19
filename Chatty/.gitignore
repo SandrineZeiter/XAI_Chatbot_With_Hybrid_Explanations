@@ -1,0 +1,6 @@
+/__pycache__/
+*.csv
+!balanced_dataset.csv
+*.png
+*.log
+data.json
