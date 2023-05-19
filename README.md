@@ -9,6 +9,8 @@ This project is part of a master's thesis titled eXplainable AI - A Chatbot With
 The project is organized into the following folders:
 
 1. **Chatty**: The XAI chatbot
+   - .gitignore
+   - balanced_dataset.csv
    - categories.py
    - credentials.py
    - lime_prediction.py
@@ -16,6 +18,7 @@ The project is organized into the following folders:
    - messaging.py
    - my_mnb.pkl
    - preprocessing.py
+   - Procfile
    - questions_dict.py
    - reaction_concentration.py
    - reaction_control.py
@@ -23,8 +26,10 @@ The project is organized into the following folders:
    - reaction_finishing.py
    - reaction_interest.py
    - reaction_supervisor.py
+   - requirements.txt
 
 2. **Noxi**: The non-explanatory chatbot
+   - balanced_dataset.csv
    - categories.py
    - credentials.py
    - lime_prediction.py
@@ -39,10 +44,15 @@ The project is organized into the following folders:
    - reaction_finishing.py
    - reaction_interest.py
    - reaction_supervisor.py
+   - requirements.txt
 
 3. **Training**: Creating the ML model using MNB
+   - balanced_dataset.csv
    - changing_dataset.py
+   - dataset.csv
+   - dataset_sorted.csv
    - main.py
+   - my_mnb.pkl
    - preprocessing.py
    - pretraining.py
 
